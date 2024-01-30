@@ -1,0 +1,166 @@
+@charset "UTF-8" ;
+
+
+@media screen and (max-width:768px) and (min-width:320px){
+    
+    main{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .sedan{
+        width: 400px;
+        height: 550px;
+        text-align: center;
+
+        border-radius: 10px 10px 0px 0px;
+        background-color: rgb(226, 141, 61);
+        color: white;
+
+        
+    }
+
+    .sedan > img{
+        display: block;
+        padding: 30px;
+    }
+
+    .sedan > h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: lighter;
+        font-size: 2.0em;
+
+    }
+
+    .sedan > p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.5em;
+
+    }
+
+    .sedan > .bse {
+        padding: 15px;
+        width: 200px;
+        height: 30px;
+        margin: auto;
+
+        color: rgb(226, 141, 61);
+        background-color: white;
+        border: 0px solid black;
+        border-radius: 50px;
+        font-size: 1.4em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+ 
+    
+    .suv{
+        width: 400px;
+        height: 550px;
+        text-align: center;
+
+        background-color: #025756d7;
+        color: white;
+    }
+
+    .suv > h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: lighter;
+        font-size: 2.0em;
+    }
+
+    .suv > p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.5em;
+
+    }
+
+    .suv > img {
+        display: block;
+        padding: 30px;
+    }
+
+    .suv > .bsuv{
+        padding: 15px;
+        width: 200px;
+        height: 30px;
+        margin: auto;
+
+        color:#025756d7;
+        background-color: white;
+        border: 0px solid black;
+        border-radius: 50px;
+        font-size: 1.4em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+      
+    }
+
+    .bsuv >{
+        padding: 10px;
+    }
+    
+    .luxury{
+        width: 400px;
+        height: 550px;
+        text-align: center;
+
+        border-radius: 0px 0px 10px 10px;
+        background-color: #023535;
+        color: white;
+    }
+
+    .luxury > img{
+        display: block;
+        padding: 30px;
+    }
+
+    .luxury > h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 2.0em;
+
+    }
+
+    .luxury > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-size: 1.5em;
+
+    }
+
+    .luxury > .bluxu{
+    padding: 15px;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+
+    color: #023535;;
+    background-color: white;
+    border-radius: 50px;
+    border: 0px solid black;
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+
+    }
+
+    .attribution > a{
+        text-decoration: none;
+        font-style: italic;
+        font-size: 1.2em;
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+
+    .attribution > a:hover{
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(226, 141, 61);
+    
+    }
+}
